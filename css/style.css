@@ -1,0 +1,50 @@
+html, body, header,.view {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 740px) {
+  html, body, header, .view {
+    height: 100vh;
+  }
+}
+
+.joayo {
+  font-family: 'Reenie Beanie', cursive;
+  font-size:40px;
+}
+
+h5 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 3px;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+.picto {
+  font-family: 'Righteous', cursive;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+.bg-black {
+  background-color:black;
+}
+
+.navbar-brand {
+ font-family: 'Reenie Beanie', cursive;
+ font-size:0px;
+}
+
+.banner {
+  background-image: url('https://images.unsplash.com/photo-1534870439272-475575042b61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center;
+}
+
